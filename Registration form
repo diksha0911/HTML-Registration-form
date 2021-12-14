@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<Table>
+<tr><th colspan="4">Student Registration for Session 2021-22:</th></tr>
+<tr><td>Name:</td><td><input type="text"></td><td><input type="file"></input></td>
+<td>Your Fee Receipt</td></tr>
+<tr><td>father Name:</td><td><input type="text"></td><td>Mother Name:</td>
+<td><input type="text"></td></tr>
+<tr><td>Address:</td><td colspan="3"><input type="text"></td></tr>
+<tr><td>State:</td><td><select name="state"><option>MP</option><option>HP</option>
+<option>UP</option></select></td>
+<td>Gender:</td><td><input type="radio">Female<input type="radio">Male</td></tr>
+<tr><td>Hobbies</td><td colspan="3"><input type="checkbox">Listening<input type="checkbox">Singing<input type="checkbox">Travelling</td></tr>
+<tr><td>DOB:</td><td><input type="date"></td></tr>
+<tr><td><input type="Submit" value="Submit"></td></tr>
+</table>
+</body>
+</html>
